@@ -1,0 +1,93 @@
+ 
+/* Estilos para el video */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporción 16:9 para videos */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+   
+}
+
+ul, ol {
+    margin-bottom: 20px;
+}
+
+/* Estilos adicionales para la receta */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: rosybrown;
+}
+footer {
+    position: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    background-color: black;
+    text-align: center;
+    margin-top: 25px;
+   
+  }
+  .social-icons {
+      text-align: center;
+      margin-top: 8px;
+    }
+    
+    .social-icon {
+      margin: 5px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    .social-icon i {
+      background: rosybrown;
+      color: white;
+      width: 36px;
+      height: 36px;
+      line-height: 36px;
+      text-align: center;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+    
+    /* Efecto al pasar el mouse sobre los iconos */
+    .social-icon:hover {
+      opacity: 0.7;
+    }
+    
+footer div a{
+    display: inline-block;
+    text-decoration: none;
+    color: rosybrown;
+    text-align: center;
+    margin-top: 10px;
+    font-style: oblique;
+}  
+
+footer p{
+    display: inline-block;
+    color: bisque;
+    text-align: center;
+    margin: 15px;
+    font-style: oblique;
+}  
+ 

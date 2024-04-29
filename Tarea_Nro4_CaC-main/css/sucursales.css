@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+header{
+    background-color: black;
+    color: rosybrown;
+}
+  
+.nav{
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main section {
+    display: block;
+    text-align: center;
+}
